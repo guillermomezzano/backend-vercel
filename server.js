@@ -10,7 +10,7 @@ import serverless from "serverless-http";
 // creamos instancia de express
 const app = express();
 // const port = 8080;
-
+// hola como estan?
 //me permite trabajar en un formato json desde el body
 connectDB();
 app.use(express.json());
